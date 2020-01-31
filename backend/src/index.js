@@ -8,7 +8,7 @@ const { setupWebsocket } = require('./websocket');
 const app = express();
 const server = http.Server(app);
 
-mongoose.connect('mongodb+srv://admin:admin@cluster0-ge0wa.mongodb.net/devradar?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://...', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 });
